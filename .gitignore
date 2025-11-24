@@ -1,0 +1,73 @@
+
+---
+
+# ✅ **.gitignore for this project**
+
+This ensures you don’t accidentally commit embeddings, venv, temp files, etc.
+
+```gitignore
+############################
+# Python
+############################
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info
+*.egg
+dist/
+build/
+
+############################
+# Virtual Environments
+############################
+venv/
+.venv/
+env/
+ENV/
+*.env
+
+############################
+# Chroma DB / Vector store
+############################
+embeddings/
+embeddings/chroma_db/
+*.sqlite3
+
+############################
+# Ollama & Model Artifacts
+############################
+models/
+.cache/
+.huggingface/
+ollama/
+transformers_cache/
+hf_cache/
+
+############################
+# Streamlit
+############################
+.streamlit/
+
+############################
+# Logs / Temp
+############################
+logs/
+tmp/
+*.log
+checkpoints/
+outputs/
+
+############################
+# System / IDE
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Jupyter
+############################
+.ipynb_checkpoints/
+*.ipynb
