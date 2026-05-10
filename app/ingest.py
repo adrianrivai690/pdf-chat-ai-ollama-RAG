@@ -1,7 +1,7 @@
 import os
 import uuid
-from chromadb import PersistentClient
-import ollama
+from chromadb import PersistentClient  # Perbaikan 1: Menambahkan nama library chromadb
+import ollama                          # Perbaikan 2: Mengimpor library ollama yang benar
 
 from app.utils import load_pdf_as_documents, split_documents
 
