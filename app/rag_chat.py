@@ -8,7 +8,7 @@ from typing import List, Dict
 # -----------------------
 PERSIST_DIR = "embeddings/chroma_db"
 COLLECTION_NAME = "abb_docs"
-CHAT_MODEL = "phi3:3.8b"
+CHAT_MODEL = "qwen2:1.5b"
 EMBED_MODEL = "nomic-embed-text"
 
 TOP_K = 4
